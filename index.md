@@ -7,3 +7,6 @@ Some Text.
 > BLOCKQUOTE
 *** 
 > Blockquote with a line
+
+* > This is a fun lab! :D
+* 
