@@ -1,5 +1,6 @@
 # LAB 1 BLOG
 * Download VSCode 
+
 ___
 
 ![vscodeDownload](vscodeDownload.PNG)
