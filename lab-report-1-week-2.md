@@ -4,7 +4,7 @@
 ___
 
 ![vscodeDownload](vscodeDownload.PNG)
-    For this step, go to [VSCode] https://code.visualstudio.com/, and download VSCode for whatever OS you have.
+    For this step, go to [VSCode](https://code.visualstudio.com/), and download VSCode for whatever OS you have.
     Once you have downloaded VSCode you should be able to open it to a window that looks like this. 
 
 ![OpenVSCode](OpenVSCode.PNG)
