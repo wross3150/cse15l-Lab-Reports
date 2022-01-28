@@ -101,3 +101,4 @@ Once you no longer have to login to access the remote server every single time t
 1. You can write a command in quotes to directly run it on the home directory of the remote server. ![Shortcuts1](Shortcuts1.PNG)
 2. You can send multiple commands at the same time using semicolons. ![Shortcuts2](Shortcuts2.PNG)
 
+* Using these strategies, it takes much less time, and far fewer keystrokes in order to save and run a file on a remote server. The first time I try to run javac and java on the remote server, it takes 52 keystrokes (mostly because I have a long password, and had to type out the command both times), but with these shortcuts, and copy paste it only takes 26 keystrokes. (this is longer than it should take because I have set a password for my key that is 17 keystrokes). Once I have made my password copy/pastable it goes down to 12 keystrokes, which is significantyl less than the 52 that I started with.
