@@ -30,8 +30,9 @@ This immage tells us that there is a problem with our code at line 22, which is 
 3. The third error we had to fix was the infinite loop that was caused by our try catch block. This error meant the code was never moving past that block. 
 
 ___
-![Third Error Fix]()
+![Third Error Fix](Lab4.2.PNG)
 
 ___
 When we run the [Eighth Test](https://github.com/ucsd-cse15l-w22/markdown-parse/blob/main/test-file8.md), we get an infinite loop that looks like is shown below.
 ![Third Error Message](Lab4.2e.PNG)
+The error tells us that there is somewhere in our code where the program continues running in the same loop indefinitely. We know is has to be in one of the places we just added because it was running before, so we know to look at the try catch block. From there we can see that if we catch an exception, we just continue, which would mean that we catch the same exception over and over and over again, causing an infinite loop. To fix this bug, we needed to make sure that once an exception was caught we would not catch the same one again, so we increase our current index by 1 to move past the problematic index. Once this is done, the output correctly return an empty List because there are no links in the File.
