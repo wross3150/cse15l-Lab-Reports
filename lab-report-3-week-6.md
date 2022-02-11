@@ -22,7 +22,7 @@ ___
 Once you do this, a new text file should open up that looks like.
 
 ___
-![Lab6Configure](Lab6Configure3.PNG)
+![Lab6Configure](SSHConfigure.PNG)
 
 ___
 You need to fill in the host name with the server that you want to connect to, and the User tab with your username. The Host is the keyword that you will later use to tell your device you want to connect to this server. 
